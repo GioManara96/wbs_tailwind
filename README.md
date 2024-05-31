@@ -1,8 +1,19 @@
-# React + Vite
+# Progetto di studio Tailwind per Websonica
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Installazione
+```bash
+git clone https://github.com/GioManara96/wbs_tailwind.git
+# or
+git clone git@github.com:GioManara96/wbs_tailwind.git
+```
+Dopo entrate nella cartella e installate le dipendenze:
+```bash
+cd wbs_tailwind
+npm install
+```
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Per avviare il server locale:
+```bash
+npm run dev
+```
+e visitare l'url: http://localhost:5173/
