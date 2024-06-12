@@ -22,16 +22,20 @@ function App() {
         </div>
 
         {/** sezione a griglia */}
-        <section className="my-10 w-full">
-          <div className="mx-auto w-1/2 min-h-[400px] grid grid-cols-4 grid-rows-4 gap-5">
+        <section className="mt-20 mb-10 w-full">
+          <div className="w-fit mx-auto mb-5 text-center tracking-wide">
+            <h2 className="text-4xl font-bold text-esa-blue mb-3">Collections</h2>
+            <p className="text-[#8197A6] text-sm">Need space? We have everything ESA and mission-related as well as some stellar collaborations.</p>
+          </div>
+          <div className="mx-auto w-3/4 min-h-[600px] grid grid-cols-4 grid-rows-4 gap-5">
             {/** colonna sinistra in alto */}
             <div className="col-span-2 md:col-span-1 row-span-2 bg-gray-200 order-1">1</div>
             {/** colonna centrale */}
             <div className="col-span-4 md:col-span-2 row-span-4 bg-red-400 order-3 md:order-2">2</div>
             {/** colonna destra in alto */}
-            <div className="col-span-2 md:col-span-1 row-span-2 bg-green-300 order-2 md:order-3">3</div>
+            <div className="col-span-2 md:col-span-1 row-span-2 bg-green-300 order-4 md:order-3">3</div>
             {/** colonna sinistra in basso */}
-            <div className="col-span-2 md:col-span-1 row-span-2 bg-yellow-300 order-4">4</div>
+            <div className="col-span-2 md:col-span-1 row-span-2 bg-yellow-300 order-2 md:order-4">4</div>
             {/** colonna destra in basso */}
             <div className="col-span-2 md:col-span-1 row-span-2 bg-orange-300 order-5">5</div>
           </div>
